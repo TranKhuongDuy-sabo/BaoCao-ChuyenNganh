@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SaBoTech")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+136ced067b4ad40eb8f7f3f6d2bfcb2f21b2f770")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25c9f446e22cee092ec31409c0c16650c110f7e9")]
 [assembly: System.Reflection.AssemblyProductAttribute("SaBoTech")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SaBoTech")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
