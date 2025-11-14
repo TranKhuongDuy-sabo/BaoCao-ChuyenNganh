@@ -260,3 +260,4 @@ C:\Bo\TT CHUYÊN NGÀNH\Baocaochuyennganh\project\project\obj\Debug\net6.0\refin
 C:\Bo\TT CHUYÊN NGÀNH\Baocaochuyennganh\project\project\obj\Debug\net6.0\project.pdb
 C:\Bo\TT CHUYÊN NGÀNH\Baocaochuyennganh\project\project\obj\Debug\net6.0\project.genruntimeconfig.cache
 C:\Bo\TT CHUYÊN NGÀNH\Baocaochuyennganh\project\project\obj\Debug\net6.0\ref\project.dll
+C:\Bo\TT CHUYÊN NGÀNH\Baocaochuyennganh\project\project\obj\Debug\net6.0\project.sourcelink.json
