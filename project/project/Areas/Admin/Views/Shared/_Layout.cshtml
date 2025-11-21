@@ -4,10 +4,60 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>@ViewData["Title"] - SeoDash Admin</title>
-
-    <link rel="shortcut icon" type="image/png" href="~/assets/images/logos/seodashlogo.png" />
+    <title>@ViewData["Title"] - SaBoTech Admin</title>
     <link rel="stylesheet" href="~/assets/css/styles.min.css" />
+    <style>
+        /* ÉP MÀU XANH LÁ CỦA FRUITABLES VÀO TẤT CẢ CÁC THÀNH PHẦN */
+        :root,
+        [data-bs-theme=light] {
+            /* Ghi đè màu chính */
+            --bs-primary: #81c408 !important;
+            --bs-primary-rgb: 129, 196, 8 !important;
+            /* Ghi đè các màu liên quan khác (ví dụ: link, hover nhẹ) */
+            --bs-link-color: #81c408 !important;
+            --bs-link-hover-color: #6ea706 !important;
+            --bs-light-primary: #f4fce3 !important; /* Background xanh lá nhạt */
+        }
+
+        /* Ghi đè các class quan trọng để đảm bảo */
+        .btn-primary,
+        .btn-primary:focus,
+        .btn-primary:active {
+            background-color: #81c408 !important;
+            border-color: #81c408 !important;
+            color: #fff !important;
+        }
+
+        /* Đảm bảo Sidebar Active (Selected) có màu xanh lá */
+        .sidebar-nav ul .sidebar-item.selected > .sidebar-link,
+        .sidebar-nav ul .sidebar-item > .sidebar-link.active {
+            background-color: #81c408 !important;
+            color: #fff !important;
+        }
+
+        /* Text và Checkbox */
+        .text-primary {
+            color: #81c408 !important;
+        }
+
+        .form-check-input:checked {
+            background-color: #81c408 !important;
+            border-color: #81c408 !important;
+        }
+
+        .form-control:focus {
+            border-color: #81c408 !important;
+            box-shadow: 0 0 0 0.25rem rgba(129, 196, 8, 0.25) !important;
+        }
+        /* CHỈ SỬA: Màu nền mờ khi di chuột vào Menu (Sidebar) */
+        .sidebar-nav ul .sidebar-item .sidebar-link:hover,
+        .sidebar-nav ul .sidebar-item .sidebar-link:focus {
+            /* Đổi nền xanh biển nhạt thành xanh lá nhạt (Fruitables) */
+            background-color: rgba(129, 196, 8, 0.1) !important;
+            /* Đổi chữ thành màu xanh lá đậm cho đồng bộ */
+            color: #81c408 !important;
+        }
+    </style>
 </head>
 
 <body>
@@ -19,7 +69,7 @@
                 <div class="brand-logo d-flex align-items-center justify-content-between">
                     <!-- SỬ DỤNG HTML THUẦN -->
                     <a href="/Admin/Admin/Index" class="text-nowrap logo-img">
-                        <img src="~/assets/images/logos/logo.png" alt="" style="width: 170px; height: auto;" />
+                        <img src="~/assets/images/logos/logo1.png" alt="" style="width: 50%;height: 50%;object-fit: cover;" />
                     </a>
                     <div class="close-btn d-xl-none d-block sidebartoggler cursor-pointer" id="sidebarCollapse">
                         <i class="ti ti-x fs-8"></i>
@@ -101,7 +151,7 @@
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-end dropdown-menu-animate-up" aria-labelledby="drop2">
                                     <div class="message-body">
-                                        <a href="./authentication-login.html" class="btn btn-outline-primary mx-3 mt-2 d-block">Logout</a>
+                                        <a href="/Home/Index" class="btn btn-outline-success mx-3 mt-2 d-block">Logout</a>
                                     </div>
                                 </div>
                             </li>

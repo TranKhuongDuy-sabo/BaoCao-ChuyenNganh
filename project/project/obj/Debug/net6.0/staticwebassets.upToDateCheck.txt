@@ -11,8 +11,7 @@ wwwroot\assets\images\backgrounds\rocket.png
 wwwroot\assets\images\blog\blog-img1.jpg
 wwwroot\assets\images\blog\blog-img2.jpg
 wwwroot\assets\images\blog\blog-img3.jpg
-wwwroot\assets\images\logos\logo.png
-wwwroot\assets\images\logos\seodashlogo.png
+wwwroot\assets\images\logos\logo1.png
 wwwroot\assets\images\products\s1.jpg
 wwwroot\assets\images\products\s11.jpg
 wwwroot\assets\images\products\s4.jpg
