@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "project\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Bo\\TT CHUY\u00CAN NG\u00C0NH\\Baocaochuyennganh\\project\\project\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "project\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAEgBAAAAAAAAAADwv2EBAAB/AAAAAAAAAA==",
+              "ViewState": "AgIAAPwBAAAAAAAAAADwvyMCAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-22T15:44:19.121Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "project\\Views\\Shop\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T15:22:30.649Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T15:22:30.649Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "project\\Views\\ShopDetail\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T15:22:26.158Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T15:22:26.158Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "project\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T15:19:57.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T15:19:57.822Z"
             }
           ]
         }
