@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace SaBoTech.Areas.Admin.Controllers
+namespace project.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class AdminController : Controller

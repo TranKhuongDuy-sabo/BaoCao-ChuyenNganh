@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Bo\\TT CHUY\u00CAN NG\u00C0NH\\Baocaochuyennganh\\project\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{E1B7BB0A-F6EA-4566-A1C1-D40D2B6412F5}|project\\project.csproj|c:\\bo\\tt chuy\u00EAn ng\u00E0nh\\baocaochuyennganh\\project\\project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E1B7BB0A-F6EA-4566-A1C1-D40D2B6412F5}|project\\project.csproj|solutionrelative:project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1B7BB0A-F6EA-4566-A1C1-D40D2B6412F5}|project\\project.csproj|c:\\bo\\tt chuy\u00EAn ng\u00E0nh\\baocaochuyennganh\\project\\project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E1B7BB0A-F6EA-4566-A1C1-D40D2B6412F5}|project\\project.csproj|solutionrelative:project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1B7BB0A-F6EA-4566-A1C1-D40D2B6412F5}|project\\project.csproj|c:\\bo\\tt chuy\u00EAn ng\u00E0nh\\baocaochuyennganh\\project\\project\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E1B7BB0A-F6EA-4566-A1C1-D40D2B6412F5}|project\\project.csproj|solutionrelative:project\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1B7BB0A-F6EA-4566-A1C1-D40D2B6412F5}|project\\project.csproj|c:\\bo\\tt chuy\u00EAn ng\u00E0nh\\baocaochuyennganh\\project\\project\\views\\shopdetail\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E1B7BB0A-F6EA-4566-A1C1-D40D2B6412F5}|project\\project.csproj|solutionrelative:project\\views\\shopdetail\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,60 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Bo\\TT CHUY\u00CAN NG\u00C0NH\\Baocaochuyennganh\\project\\project\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "project\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Bo\\TT CHUY\u00CAN NG\u00C0NH\\Baocaochuyennganh\\project\\project\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "project\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAP0BAAAAAAAAAADwvyQCAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T15:44:19.121Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Bo\\TT CHUY\u00CAN NG\u00C0NH\\Baocaochuyennganh\\project\\project\\Views\\Shop\\Index.cshtml",
-              "RelativeDocumentMoniker": "project\\Views\\Shop\\Index.cshtml",
-              "ToolTip": "C:\\Bo\\TT CHUY\u00CAN NG\u00C0NH\\Baocaochuyennganh\\project\\project\\Views\\Shop\\Index.cshtml",
-              "RelativeToolTip": "project\\Views\\Shop\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T15:22:30.649Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Bo\\TT CHUY\u00CAN NG\u00C0NH\\Baocaochuyennganh\\project\\project\\Views\\ShopDetail\\Index.cshtml",
-              "RelativeDocumentMoniker": "project\\Views\\ShopDetail\\Index.cshtml",
-              "ToolTip": "C:\\Bo\\TT CHUY\u00CAN NG\u00C0NH\\Baocaochuyennganh\\project\\project\\Views\\ShopDetail\\Index.cshtml",
-              "RelativeToolTip": "project\\Views\\ShopDetail\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T15:22:26.158Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Bo\\TT CHUY\u00CAN NG\u00C0NH\\Baocaochuyennganh\\project\\project\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "project\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Bo\\TT CHUY\u00CAN NG\u00C0NH\\Baocaochuyennganh\\project\\project\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "project\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T15:19:57.822Z"
             }
           ]
         }

@@ -1,4 +1,4 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -21,8 +21,8 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapControllerRoute(
-    name: "areas", // Đặt tên cho route của Area
-    pattern: "{area:exists}/{controller=Product}/{action=Index}/{id?}" // Cấu trúc URL
+    name: "areas", // ??t t�n cho route c?a Area
+    pattern: "{area:exists}/{controller=Admin}/{action=Index}/{id?}" // C?u tr�c URL
 );
 
 app.MapControllerRoute(
