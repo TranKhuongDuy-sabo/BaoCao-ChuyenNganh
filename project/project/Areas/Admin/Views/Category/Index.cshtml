@@ -1,4 +1,6 @@
-﻿@{
+﻿@model IEnumerable<project.Models.Category>
+
+@{
     ViewData["Title"] = "Quản Lý Danh Mục";
 }
 
@@ -21,76 +23,46 @@
                                 </div>
                             </form>
 
-                            <a href="/Admin/Product/Create" class="btn btn-primary d-flex align-items-center gap-2">
+                            <a href="/Admin/Category/formThem" class="btn btn-primary d-flex align-items-center gap-2">
                                 <i class="ti ti-plus fs-4"></i>
                                 Thêm Danh Mục Mới
                             </a>
                         </div>
                     </div>
                     <div class="table-responsive">
+                        @if (TempData["Success"] != null)
+                        {
+                            <i class="ti ti-check fs-5 me-2"></i>
+                            <strong>Thành công!</strong>
+                            @TempData["Success"]
+                        }
                         <table class="table text-nowrap mb-0 align-middle">
                             <thead class="text-dark fs-4">
                                 <tr>
-                                    <th class="border-bottom-0"><h6 class="fw-semibold mb-0">ID</h6></th>
-                                    <th class="border-bottom-0"><h6 class="fw-semibold mb-0">Ảnh</h6></th>
-                                    <th class="border-bottom-0"><h6 class="fw-semibold mb-0">Tên Sản Phẩm</h6></th>
-                                    <th class="border-bottom-0"><h6 class="fw-semibold mb-0">Giá</h6></th>
-                                    <th class="border-bottom-0"><h6 class="fw-semibold mb-0">Danh Mục</h6></th>
-                                    <th class="border-bottom-0"><h6 class="fw-semibold mb-0">Trạng Thái</h6></th>
+                                    <th>@Html.DisplayNameFor(Model => Model.CategoryId)</th>
+                                    <th>@Html.DisplayNameFor(Model => Model.CategoryName)</th>
                                     <th class="border-bottom-0"><h6 class="fw-semibold mb-0">Thao Tác</h6></th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td class="border-bottom-0"><h6 class="fw-semibold mb-0">1</h6></td>
-                                    <td class="border-bottom-0">
-                                        <img src="~/assets/images/products/samsung.jpg" alt="product image" width="40" height="40" class="rounded-circle">
-                                    </td>
-                                    <td class="border-bottom-0">
-                                        <h6 class="fw-semibold mb-1">Samsung Galaxy S23</h6>
-                                        <span class="fw-normal">Điện thoại di động</span>
-                                    </td>
-                                    <td class="border-bottom-0">
-                                        <p class="mb-0 fw-normal">24.500.000 VNĐ</p>
-                                    </td>
-                                    <td class="border-bottom-0">
-                                        <p class="mb-0 fw-normal">Smartphone</p>
-                                    </td>
-                                    <td class="border-bottom-0">
-                                        <div class="d-flex align-items-center gap-2">
-                                            <span class="badge bg-success rounded-3 fw-semibold">Còn hàng</span>
-                                        </div>
-                                    </td>
-                                    <td class="border-bottom-0">
-                                        <a href="/Admin/Product/Edit/1" class="text-dark p-2"><i class="ti ti-pencil fs-5"></i></a>
-                                        <a href="#" class="text-danger p-2" onclick="return confirm('Bạn có chắc chắn muốn xóa sản phẩm này?');"><i class="ti ti-trash fs-5"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="border-bottom-0"><h6 class="fw-semibold mb-0">1</h6></td>
-                                    <td class="border-bottom-0">
-                                        <img src="~/assets/images/products/samsung.jpg" alt="product image" width="40" height="40" class="rounded-circle">
-                                    </td>
-                                    <td class="border-bottom-0">
-                                        <h6 class="fw-semibold mb-1">Samsung Galaxy S23</h6>
-                                        <span class="fw-normal">Điện thoại di động</span>
-                                    </td>
-                                    <td class="border-bottom-0">
-                                        <p class="mb-0 fw-normal">24.500.000 VNĐ</p>
-                                    </td>
-                                    <td class="border-bottom-0">
-                                        <p class="mb-0 fw-normal">Smartphone</p>
-                                    </td>
-                                    <td class="border-bottom-0">
-                                        <div class="d-flex align-items-center gap-2">
-                                            <span class="badge bg-success rounded-3 fw-semibold">Còn hàng</span>
-                                        </div>
-                                    </td>
-                                    <td class="border-bottom-0">
-                                        <a href="/Admin/Product/Edit/1" class="text-dark p-2"><i class="ti ti-pencil fs-5"></i></a>
-                                        <a href="#" class="text-danger p-2" onclick="return confirm('Bạn có chắc chắn muốn xóa sản phẩm này?');"><i class="ti ti-trash fs-5"></i></a>
-                                    </td>
-                                </tr>
+                                @{
+                                    foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>@item.CategoryId</td>
+                                            <td>@item.CategoryName</td>
+                                            <td>
+                                                <a href="/Admin/Category/formSua?id=@item.CategoryId" class="text-dark p-2">
+                                                    <i class="ti ti-pencil fs-5"></i>
+                                                </a>
+
+                                                <a href="/Admin/Category/formXoa?id=@item.CategoryId" class="text-danger p-2">
+                                                    <i class="ti ti-trash fs-5"></i>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    }
+                                }
                             </tbody>
                         </table>
                     </div>

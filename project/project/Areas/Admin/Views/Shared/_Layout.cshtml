@@ -1,4 +1,8 @@
-﻿<!doctype html>
+﻿@{
+    // Lấy tên Controller hiện tại đang chạy (Ví dụ: "Category", "Product", "User"...)
+    string currentController = ViewContext.RouteData.Values["controller"]?.ToString();
+}
+<!doctype html>
 <html lang="en">
 
 <head>
@@ -84,45 +88,52 @@
                             <span class="hide-menu">QUẢN LÝ</span>
                         </li>
 
-                        <li class="sidebar-item">
+                        <li class="sidebar-item @(currentController == "Admin" ? "selected" : "")">
                             <a class="sidebar-link" href="/Admin/Admin/Index" aria-expanded="false">
                                 <span><iconify-icon icon="solar:home-smile-bold-duotone" class="fs-6"></iconify-icon></span>
                                 <span class="hide-menu">Dashboard</span>
                             </a>
                         </li>
 
-                        <li class="sidebar-item">
+                        <li class="sidebar-item @(currentController == "Product" ? "selected" : "")">
                             <a class="sidebar-link" href="/Admin/Product/Index" aria-expanded="false">
                                 <span><iconify-icon icon="solar:box-minimalistic-bold-duotone" class="fs-6"></iconify-icon></span>
                                 <span class="hide-menu">Quản Lý Sản Phẩm</span>
                             </a>
                         </li>
 
-                        <li class="sidebar-item">
+                        <li class="sidebar-item @(currentController == "Category" ? "selected" : "")">
                             <a class="sidebar-link" href="/Admin/Category/Index" aria-expanded="false">
                                 <span><iconify-icon icon="solar:folder-with-files-bold-duotone" class="fs-6"></iconify-icon></span>
                                 <span class="hide-menu">Quản Lý Danh Mục</span>
                             </a>
                         </li>
 
-                        <li class="sidebar-item">
+                        <li class="sidebar-item @(currentController == "Brand" ? "selected" : "")">
                             <a class="sidebar-link" href="/Admin/Brand/Index" aria-expanded="false">
                                 <span><iconify-icon icon="solar:tag-bold-duotone" class="fs-6"></iconify-icon></span>
                                 <span class="hide-menu">Quản Lý Thương Hiệu</span>
                             </a>
                         </li>
 
-                        <li class="sidebar-item">
+                        <li class="sidebar-item @(currentController == "Order" ? "selected" : "")">
                             <a class="sidebar-link" href="/Admin/Order/Index" aria-expanded="false">
                                 <span><iconify-icon icon="solar:cart-check-bold-duotone" class="fs-6"></iconify-icon></span>
                                 <span class="hide-menu">Quản Lý Đơn Hàng</span>
                             </a>
                         </li>
 
-                        <li class="sidebar-item">
+                        <li class="sidebar-item @(currentController == "User" ? "selected" : "")">
                             <a class="sidebar-link" href="/Admin/User/Index" aria-expanded="false">
                                 <span><iconify-icon icon="solar:users-group-two-rounded-bold-duotone" class="fs-6"></iconify-icon></span>
                                 <span class="hide-menu">Quản Lý Người Dùng</span>
+                            </a>
+                        </li>
+
+                        <li class="sidebar-item @(currentController == "User" ? "selected" : "")">
+                            <a class="sidebar-link" href="/Admin/Customer/Index" aria-expanded="false">
+                                <span><iconify-icon icon="solar:users-group-two-rounded-bold-duotone" class="fs-6"></iconify-icon></span>
+                                <span class="hide-menu">Customer</span>
                             </a>
                         </li>
 
@@ -172,6 +183,7 @@
 
     <!-- Scripts sử dụng đường dẫn tuyệt đối (~) -->
     <script src="~/assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="~/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/assets/libs/simplebar/dist/simplebar.js"></script>
     <script src="~/assets/js/sidebarmenu.js"></script>

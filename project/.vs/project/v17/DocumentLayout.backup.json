@@ -1,7 +1,52 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Bo\\TT CHUY\u00CAN NG\u00C0NH\\Baocaochuyennganh\\project\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D4DC692-BBCB-4C88-979D-0990032B389F}|project\\project.csproj|c:\\bo\\tt chuy\u00EAn ng\u00E0nh\\baocaochuyennganh\\project\\project\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D4DC692-BBCB-4C88-979D-0990032B389F}|project\\project.csproj|solutionrelative:project\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D4DC692-BBCB-4C88-979D-0990032B389F}|project\\project.csproj|c:\\bo\\tt chuy\u00EAn ng\u00E0nh\\baocaochuyennganh\\project\\project\\areas\\admin\\views\\category\\formsua.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D4DC692-BBCB-4C88-979D-0990032B389F}|project\\project.csproj|solutionrelative:project\\areas\\admin\\views\\category\\formsua.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D4DC692-BBCB-4C88-979D-0990032B389F}|project\\project.csproj|c:\\bo\\tt chuy\u00EAn ng\u00E0nh\\baocaochuyennganh\\project\\project\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D4DC692-BBCB-4C88-979D-0990032B389F}|project\\project.csproj|solutionrelative:project\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D4DC692-BBCB-4C88-979D-0990032B389F}|project\\project.csproj|c:\\bo\\tt chuy\u00EAn ng\u00E0nh\\baocaochuyennganh\\project\\project\\areas\\admin\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D4DC692-BBCB-4C88-979D-0990032B389F}|project\\project.csproj|solutionrelative:project\\areas\\admin\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D4DC692-BBCB-4C88-979D-0990032B389F}|project\\project.csproj|c:\\bo\\tt chuy\u00EAn ng\u00E0nh\\baocaochuyennganh\\project\\project\\areas\\admin\\views\\brand\\formthem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D4DC692-BBCB-4C88-979D-0990032B389F}|project\\project.csproj|solutionrelative:project\\areas\\admin\\views\\brand\\formthem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D4DC692-BBCB-4C88-979D-0990032B389F}|project\\project.csproj|c:\\bo\\tt chuy\u00EAn ng\u00E0nh\\baocaochuyennganh\\project\\project\\areas\\admin\\views\\category\\formthem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D4DC692-BBCB-4C88-979D-0990032B389F}|project\\project.csproj|solutionrelative:project\\areas\\admin\\views\\category\\formthem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D4DC692-BBCB-4C88-979D-0990032B389F}|project\\project.csproj|c:\\bo\\tt chuy\u00EAn ng\u00E0nh\\baocaochuyennganh\\project\\project\\areas\\admin\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D4DC692-BBCB-4C88-979D-0990032B389F}|project\\project.csproj|solutionrelative:project\\areas\\admin\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D4DC692-BBCB-4C88-979D-0990032B389F}|project\\project.csproj|c:\\bo\\tt chuy\u00EAn ng\u00E0nh\\baocaochuyennganh\\project\\project\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D4DC692-BBCB-4C88-979D-0990032B389F}|project\\project.csproj|solutionrelative:project\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D4DC692-BBCB-4C88-979D-0990032B389F}|project\\project.csproj|c:\\bo\\tt chuy\u00EAn ng\u00E0nh\\baocaochuyennganh\\project\\project\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D4DC692-BBCB-4C88-979D-0990032B389F}|project\\project.csproj|solutionrelative:project\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D4DC692-BBCB-4C88-979D-0990032B389F}|project\\project.csproj|c:\\bo\\tt chuy\u00EAn ng\u00E0nh\\baocaochuyennganh\\project\\project\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D4DC692-BBCB-4C88-979D-0990032B389F}|project\\project.csproj|solutionrelative:project\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D4DC692-BBCB-4C88-979D-0990032B389F}|project\\project.csproj|c:\\bo\\tt chuy\u00EAn ng\u00E0nh\\baocaochuyennganh\\project\\project\\areas\\admin\\views\\category\\formxoa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D4DC692-BBCB-4C88-979D-0990032B389F}|project\\project.csproj|solutionrelative:project\\areas\\admin\\views\\category\\formxoa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +54,144 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "formSua.cshtml",
+              "DocumentMoniker": "C:\\Bo\\TT CHUY\u00CAN NG\u00C0NH\\Baocaochuyennganh\\project\\project\\Areas\\Admin\\Views\\Category\\formSua.cshtml",
+              "RelativeDocumentMoniker": "project\\Areas\\Admin\\Views\\Category\\formSua.cshtml",
+              "ToolTip": "C:\\Bo\\TT CHUY\u00CAN NG\u00C0NH\\Baocaochuyennganh\\project\\project\\Areas\\Admin\\Views\\Category\\formSua.cshtml",
+              "RelativeToolTip": "project\\Areas\\Admin\\Views\\Category\\formSua.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T09:26:39.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "formThem.cshtml",
+              "DocumentMoniker": "C:\\Bo\\TT CHUY\u00CAN NG\u00C0NH\\Baocaochuyennganh\\project\\project\\Areas\\Admin\\Views\\Category\\formThem.cshtml",
+              "RelativeDocumentMoniker": "project\\Areas\\Admin\\Views\\Category\\formThem.cshtml",
+              "ToolTip": "C:\\Bo\\TT CHUY\u00CAN NG\u00C0NH\\Baocaochuyennganh\\project\\project\\Areas\\Admin\\Views\\Category\\formThem.cshtml",
+              "RelativeToolTip": "project\\Areas\\Admin\\Views\\Category\\formThem.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswCsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T09:21:41.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "formThem.cshtml",
+              "DocumentMoniker": "C:\\Bo\\TT CHUY\u00CAN NG\u00C0NH\\Baocaochuyennganh\\project\\project\\Areas\\Admin\\Views\\Brand\\formThem.cshtml",
+              "RelativeDocumentMoniker": "project\\Areas\\Admin\\Views\\Brand\\formThem.cshtml",
+              "ToolTip": "C:\\Bo\\TT CHUY\u00CAN NG\u00C0NH\\Baocaochuyennganh\\project\\project\\Areas\\Admin\\Views\\Brand\\formThem.cshtml",
+              "RelativeToolTip": "project\\Areas\\Admin\\Views\\Brand\\formThem.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T09:21:30.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Bo\\TT CHUY\u00CAN NG\u00C0NH\\Baocaochuyennganh\\project\\project\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "project\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Bo\\TT CHUY\u00CAN NG\u00C0NH\\Baocaochuyennganh\\project\\project\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "project\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAqwDYAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T09:06:58.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Bo\\TT CHUY\u00CAN NG\u00C0NH\\Baocaochuyennganh\\project\\project\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
+              "RelativeDocumentMoniker": "project\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
+              "ToolTip": "C:\\Bo\\TT CHUY\u00CAN NG\u00C0NH\\Baocaochuyennganh\\project\\project\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
+              "RelativeToolTip": "project\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T09:06:56.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BrandController.cs",
+              "DocumentMoniker": "C:\\Bo\\TT CHUY\u00CAN NG\u00C0NH\\Baocaochuyennganh\\project\\project\\Areas\\Admin\\Controllers\\BrandController.cs",
+              "RelativeDocumentMoniker": "project\\Areas\\Admin\\Controllers\\BrandController.cs",
+              "ToolTip": "C:\\Bo\\TT CHUY\u00CAN NG\u00C0NH\\Baocaochuyennganh\\project\\project\\Areas\\Admin\\Controllers\\BrandController.cs",
+              "RelativeToolTip": "project\\Areas\\Admin\\Controllers\\BrandController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T09:06:25.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "C:\\Bo\\TT CHUY\u00CAN NG\u00C0NH\\Baocaochuyennganh\\project\\project\\Models\\Brand.cs",
+              "RelativeDocumentMoniker": "project\\Models\\Brand.cs",
+              "ToolTip": "C:\\Bo\\TT CHUY\u00CAN NG\u00C0NH\\Baocaochuyennganh\\project\\project\\Models\\Brand.cs",
+              "RelativeToolTip": "project\\Models\\Brand.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T09:04:13.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "formXoa.cshtml",
+              "DocumentMoniker": "C:\\Bo\\TT CHUY\u00CAN NG\u00C0NH\\Baocaochuyennganh\\project\\project\\Areas\\Admin\\Views\\Category\\formXoa.cshtml",
+              "RelativeDocumentMoniker": "project\\Areas\\Admin\\Views\\Category\\formXoa.cshtml",
+              "ToolTip": "C:\\Bo\\TT CHUY\u00CAN NG\u00C0NH\\Baocaochuyennganh\\project\\project\\Areas\\Admin\\Views\\Category\\formXoa.cshtml",
+              "RelativeToolTip": "project\\Areas\\Admin\\Views\\Category\\formXoa.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T08:56:27.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Bo\\TT CHUY\u00CAN NG\u00C0NH\\Baocaochuyennganh\\project\\project\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "project\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Bo\\TT CHUY\u00CAN NG\u00C0NH\\Baocaochuyennganh\\project\\project\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "project\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T08:50:51.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Bo\\TT CHUY\u00CAN NG\u00C0NH\\Baocaochuyennganh\\project\\project\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "project\\Models\\Category.cs",
+              "ToolTip": "C:\\Bo\\TT CHUY\u00CAN NG\u00C0NH\\Baocaochuyennganh\\project\\project\\Models\\Category.cs",
+              "RelativeToolTip": "project\\Models\\Category.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T08:46:37.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Bo\\TT CHUY\u00CAN NG\u00C0NH\\Baocaochuyennganh\\project\\project\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "project\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Bo\\TT CHUY\u00CAN NG\u00C0NH\\Baocaochuyennganh\\project\\project\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "project\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAswGAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T08:34:34.969Z"
             }
           ]
         }
