@@ -1,7 +1,7 @@
-﻿@model project.Models.Category;
+﻿@model project.Models.Brand;
 
 @{
-    ViewData["Title"] = "Sửa danh mục";
+    ViewData["Title"] = "Sửa thương hiệu";
 }
 
 <div class="row">
@@ -12,7 +12,7 @@
 
                     <div class="d-flex justify-content-between align-items-center mb-4">
                         <h5 class="card-title fw-semibold mb-0 text-warning">
-                            <i class="ti ti-edit"></i> Chỉnh Sửa Danh Mục
+                            <i class="ti ti-edit"></i> Chỉnh Sửa Thương Hiệu
                         </h5>
                         <a asp-action="Index" class="btn btn-outline-secondary d-flex align-items-center gap-2">
                             <i class="ti ti-arrow-left fs-4"></i> Quay lại
@@ -23,12 +23,18 @@
 
                         <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
 
-                        <input type="hidden" asp-for="CategoryId" />
+                        <input type="hidden" asp-for="BrandId" />
 
                         <div class="mb-4">
-                            <label asp-for="CategoryName" class="form-label fw-semibold"></label>
-                            <input asp-for="CategoryName" class="form-control">
-                            <span asp-validation-for="CategoryName" class="text-danger"></span>
+                            <label asp-for="BrandName" class="form-label fw-semibold"></label>
+                            <input asp-for="BrandName" class="form-control">
+                            <span asp-validation-for="BrandName" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-4">
+                            <label asp-for="Origin" class="form-label fw-semibold"></label>
+                            <input asp-for="Origin" class="form-control">
+                            <span asp-validation-for="Origin" class="text-danger"></span>
                         </div>
 
                         <div class="d-flex align-items-center gap-2">

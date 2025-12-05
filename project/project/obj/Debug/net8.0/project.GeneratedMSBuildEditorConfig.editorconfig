@@ -32,8 +32,16 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Bo/TT CHUYÊN NGÀNH/Baocaochuyennganh/project/project/Areas/Admin/Views/Brand/formSua.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQnJhbmRcZm9ybVN1YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Bo/TT CHUYÊN NGÀNH/Baocaochuyennganh/project/project/Areas/Admin/Views/Brand/formThem.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQnJhbmRcZm9ybVRoZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Bo/TT CHUYÊN NGÀNH/Baocaochuyennganh/project/project/Areas/Admin/Views/Brand/formXoa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQnJhbmRcZm9ybVhvYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Bo/TT CHUYÊN NGÀNH/Baocaochuyennganh/project/project/Areas/Admin/Views/Brand/Index.cshtml]
