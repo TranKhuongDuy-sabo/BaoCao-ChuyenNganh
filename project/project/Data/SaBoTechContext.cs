@@ -68,6 +68,7 @@ public partial class SaBoTechContext : DbContext
         {
             entity.HasKey(e => e.ProductId).HasName("PK__Products__B40CC6ED45495B99");
 
+            entity.Property(e => e.IsActive).HasDefaultValue(true);
             entity.Property(e => e.Stock).HasDefaultValue(0);
 
             entity.HasOne(d => d.Brand).WithMany(p => p.Products)

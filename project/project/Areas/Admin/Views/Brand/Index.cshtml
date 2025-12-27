@@ -4,6 +4,14 @@
     ViewData["Title"] = "Quản Lý Thương Hiệu";
 }
 
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <i class="ti ti-check me-2"></i> @TempData["Success"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
 <div class="container-fluid">
     <div class="row">
         <div class="col-lg-12 d-flex align-items-stretch">
@@ -14,18 +22,22 @@
                         <h5 class="card-title fw-semibold mb-0">Danh Sách Thương Hiệu</h5>
 
                         <div class="d-flex gap-2">
-                            <form class="d-flex align-items-center">
+                            <form asp-action="Index" asp-controller="Brand" asp-area="Admin" method="get" class="d-flex align-items-center">
                                 <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Tìm kiếm sản phẩm..." aria-label="Tìm kiếm" name="searchQuery">
+                                    <input type="text" value="@ViewBag.Search" class="form-control" placeholder="Tìm kiếm thương hiệu..." aria-label="Tìm kiếm" name="search">
                                     <button class="btn btn-outline-success" type="submit">
                                         <i class="ti ti-search fs-4"></i>
                                     </button>
+                                    @if (!string.IsNullOrEmpty(ViewBag.Search))
+                                    {
+                                        <a asp-action="Index" class="btn btn-secondary" title="Xóa lọc">X</a>
+                                    }
                                 </div>
                             </form>
 
                             <a href="/Admin/Brand/formThem" class="btn btn-primary d-flex align-items-center gap-2">
                                 <i class="ti ti-plus fs-4"></i>
-                                Thêm Sản Phẩm Mới
+                                Thêm Thương Hiệu Mới
                             </a>
                         </div>
                     </div>

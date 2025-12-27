@@ -636,9 +636,18 @@ wwwroot\assets\scss\utilities\_background.scss
 wwwroot\assets\scss\utilities\_icon-size.scss
 wwwroot\assets\scss\variables\_theme-variables.scss
 wwwroot\assets\scss\variables\_variables.scss
+wwwroot\contact.json
 wwwroot\css\bootstrap.min.css
 wwwroot\css\style.css
 wwwroot\favicon.ico
+wwwroot\images\products\113499da-e388-4657-ae89-d30adf086791.png
+wwwroot\images\products\a7c12aac-1103-41c4-89da-7945ca4eed40.png
+wwwroot\images\products\d2f867b1-b4cd-47cb-94bc-3970dd06cbd1.jpg
+wwwroot\images\products\db7cace6-62ad-4bef-b671-6e835500247e.png
+wwwroot\images\products\e2407ebe-8217-4661-ad87-61eff640bbc1.jpg
+wwwroot\images\products\f8675956-ed81-4ad5-8953-c1b4b8da8e3d.png
+wwwroot\images\products\fa33cf2f-b49c-4e1c-8dd3-d26a97497282.jpg
+wwwroot\images\products\ff84725f-0026-45fc-8a94-49db46e58093.jpg
 wwwroot\img\avatar.jpg
 wwwroot\img\baner-1.png
 wwwroot\img\banner-fruits.jpg
@@ -652,7 +661,6 @@ wwwroot\img\best-product-2.jpg
 wwwroot\img\best-product-3.jpg
 wwwroot\img\best-product-4.jpg
 wwwroot\img\best-product-6.jpg
-wwwroot\img\cart-page-header-img.jpg
 wwwroot\img\gear1.jpg
 wwwroot\img\gear2.png
 wwwroot\img\laptop1.jpg

@@ -1,16 +1,35 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using project.Attributes;
 using project.Data;
 using project.Models;
 
 namespace project.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authentication]
     public class CategoryController : Controller
     {
         private SaBoTechContext db = new SaBoTechContext();
-        public IActionResult Index()
+        public IActionResult Index(string search)
         {
-            return View(db.Categories.ToList());
+            // 1. Tạo Query
+            var query = db.Categories.AsQueryable();
+
+            // 2. Xử lý Tìm kiếm (Nếu có từ khóa)
+            if (!string.IsNullOrEmpty(search))
+            {
+                // Tìm kiếm bất chấp dấu và hoa thường (Giống bên Product)
+                query = query.Where(c => EF.Functions.Collate(c.CategoryName, "SQL_Latin1_General_CP1_CI_AI").Contains(search));
+
+                // Lưu từ khóa để hiển thị lại
+                ViewBag.Search = search;
+            }
+
+            // 3. Lấy dữ liệu
+            var categories = query.ToList();
+
+            return View(categories);
         }
 
         [HttpPost]
@@ -103,6 +122,19 @@ namespace project.Areas.Admin.Controllers
                 return RedirectToAction("Index");
             }
             return View(category);
+        }
+
+        [HttpPost]
+        public IActionResult UpdateStatus(int id, bool trangThai)
+        {
+            var category = db.Categories.Find(id);
+            if (category != null)
+            {
+                category.IsActive = trangThai;
+                db.SaveChanges();
+                return Json(new { success = true });
+            }
+            return Json(new { success = false });
         }
     }
 }

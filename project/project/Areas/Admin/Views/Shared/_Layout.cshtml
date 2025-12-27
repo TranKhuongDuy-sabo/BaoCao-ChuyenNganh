@@ -1,4 +1,6 @@
-﻿@{
+﻿@inject IHttpContextAccessor httpContextAccessor
+
+@{
     // Lấy tên Controller hiện tại đang chạy (Ví dụ: "Category", "Product", "User"...)
     string currentController = ViewContext.RouteData.Values["controller"]?.ToString();
 }
@@ -116,17 +118,26 @@
                             </a>
                         </li>
 
-                        <li class="sidebar-item @(currentController == "Order" ? "selected" : "")">
+                        @* <li class="sidebar-item @(currentController == "Order" ? "selected" : "")">
                             <a class="sidebar-link" href="/Admin/Order/Index" aria-expanded="false">
                                 <span><iconify-icon icon="solar:cart-check-bold-duotone" class="fs-6"></iconify-icon></span>
                                 <span class="hide-menu">Quản Lý Đơn Hàng</span>
                             </a>
-                        </li>
+                        </li> *@
 
                         <li class="sidebar-item @(currentController == "User" ? "selected" : "")">
                             <a class="sidebar-link" href="/Admin/User/Index" aria-expanded="false">
                                 <span><iconify-icon icon="solar:users-group-two-rounded-bold-duotone" class="fs-6"></iconify-icon></span>
                                 <span class="hide-menu">Quản Lý Người Dùng</span>
+                            </a>
+                        </li>
+
+                        <li class="sidebar-item @(currentController == "ContactInfo" ? "selected" : "")">
+                            <a class="sidebar-link" href="/Admin/ContactInfo/Index" aria-expanded="false">
+                                <span>
+                                    <iconify-icon icon="solar:phone-calling-bold-duotone" class="fs-6"></iconify-icon>
+                                </span>
+                                <span class="hide-menu">Thông tin liên hệ</span>
                             </a>
                         </li>
 
@@ -149,18 +160,65 @@
                             </a>
                         </li>
                     </ul>
-                    <div class="navbar-collapse justify-content-end px-0" id="navbarNav">
+                    <div class="navbar-collapse justify-content-end px-0 w-100" id="navbarNav">
                         <ul class="navbar-nav flex-row ms-auto align-items-center justify-content-end">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link nav-icon-hover" href="javascript:void(0)" id="drop2" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <img src="~/assets/images/profile/user-1.jpg" alt="" width="35" height="35" class="rounded-circle">
+
+                            <li class="nav-item me-3 d-none d-sm-block">
+                                <a asp-area="" asp-controller="Home" asp-action="Index" target="_blank" class="btn btn-outline-success d-flex align-items-center gap-2 rounded-pill">
+                                    <i class="ti ti-world fs-4"></i> Xem Website
                                 </a>
-                                <div class="dropdown-menu dropdown-menu-end dropdown-menu-animate-up" aria-labelledby="drop2">
-                                    <div class="message-body">
-                                        <a href="/Home/Index" class="btn btn-outline-success mx-3 mt-2 d-block">Logout</a>
-                                    </div>
-                                </div>
                             </li>
+
+                            @{
+                                var username = httpContextAccessor.HttpContext.Session.GetString("Username");
+                                var fullname = httpContextAccessor.HttpContext.Session.GetString("FullName");
+                                var displayName = !string.IsNullOrEmpty(fullname) ? fullname : (!string.IsNullOrEmpty(username) ? username : "Khách");
+                            }
+
+                            @if (username != null)
+                            {
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link d-flex align-items-center gap-2" href="javascript:void(0)" id="drop2" data-bs-toggle="dropdown" aria-expanded="false">
+
+                                        <div class="d-none d-sm-block text-end" style="line-height: normal;">
+                                            <span class="d-block text-muted" style="font-size: 12px;">Xin chào,</span>
+                                            <span class="d-block fw-bold text-dark" style="font-size: 14px;">@displayName</span>
+                                        </div>
+
+                                        <img src="~/assets/images/profile/user-1.jpg" alt="" width="35" height="35" class="rounded-circle border border-white">
+                                    </a>
+
+                                    <div class="dropdown-menu dropdown-menu-end dropdown-menu-animate-up" aria-labelledby="drop2" style="min-width: 200px;">
+                                        <div class="message-body">
+                                            <div class="d-flex align-items-center py-3 px-4 border-bottom bg-light">
+                                                <img src="~/assets/images/profile/user-1.jpg" width="50" height="50" class="rounded-circle">
+                                                <div class="ms-3">
+                                                    <h5 class="mb-0 fs-3 fw-semibold text-dark">@displayName</h5>
+                                                    <span class="text-muted fs-2">Administrator</span>
+                                                </div>
+                                            </div>
+
+                                            <a href="#" class="d-flex align-items-center gap-2 dropdown-item px-4 py-2 mt-2">
+                                                <i class="ti ti-user fs-6"></i>
+                                                <p class="mb-0 fs-3">Hồ sơ cá nhân</p>
+                                            </a>
+
+                                            <div class="px-4 py-2 mt-2">
+                                                <a asp-area="" asp-controller="Account" asp-action="Logout" class="btn btn-outline-danger w-100">Đăng xuất</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="nav-item d-flex align-items-center">
+                                    <a asp-controller="Account" asp-action="Login" class="btn btn-primary fs-3 rounded-pill px-4 ms-2">
+                                        Đăng nhập
+                                    </a>
+                                </li>
+                            }
+
                         </ul>
                     </div>
                 </nav>

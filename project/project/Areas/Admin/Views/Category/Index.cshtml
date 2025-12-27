@@ -4,6 +4,15 @@
     ViewData["Title"] = "Quản Lý Danh Mục";
 }
 
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <i class="ti ti-check me-2"></i> @TempData["Success"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+
 <div class="container-fluid">
     <div class="row">
         <div class="col-lg-12 d-flex align-items-stretch">
@@ -14,12 +23,16 @@
                         <h5 class="card-title fw-semibold mb-0">Danh Sách Danh Mục </h5>
 
                         <div class="d-flex gap-2">
-                            <form class="d-flex align-items-center">
+                            <form asp-action="Index" asp-controller="Category" asp-area="Admin" method="get" class="d-flex align-items-center">
                                 <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Tìm kiếm danh mục..." aria-label="Tìm kiếm" name="searchQuery">
+                                    <input type="text" value="@ViewBag.Search" class="form-control" placeholder="Tìm kiếm danh mục..." aria-label="Tìm kiếm" name="search">
                                     <button class="btn btn-outline-success" type="submit">
                                         <i class="ti ti-search fs-4"></i>
                                     </button>
+                                    @if (!string.IsNullOrEmpty(ViewBag.Search))
+                                    {
+                                        <a asp-action="Index" class="btn btn-secondary" title="Xóa lọc">X</a>
+                                    }
                                 </div>
                             </form>
 
@@ -41,6 +54,7 @@
                                 <tr>
                                     <th>@Html.DisplayNameFor(Model => Model.CategoryId)</th>
                                     <th>@Html.DisplayNameFor(Model => Model.CategoryName)</th>
+                                    <th class="border-bottom-0"><h6 class="fw-semibold mb-0">Trạng thái</h6></th>
                                     <th class="border-bottom-0"><h6 class="fw-semibold mb-0">Thao Tác</h6></th>
                                 </tr>
                             </thead>
@@ -51,6 +65,14 @@
                                         <tr>
                                             <td>@item.CategoryId</td>
                                             <td>@item.CategoryName</td>
+                                            <td>
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input btn-active-category" type="checkbox"
+                                                           data-id="@item.CategoryId"
+                                                           @(item.IsActive ? "checked" : "")
+                                                           style="cursor: pointer;">
+                                                </div>
+                                            </td>
                                             <td>
                                                 <a href="/Admin/Category/formSua?id=@item.CategoryId" class="text-dark p-2">
                                                     <i class="ti ti-pencil fs-5"></i>
@@ -71,3 +93,30 @@
         </div>
     </div>
 </div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.btn-active-category').change(function () {
+                var btn = $(this);
+                var id = btn.data('id');
+                var trangThai = btn.prop('checked');
+
+                $.ajax({
+                    url: '/Admin/Category/UpdateStatus', // Gọi sang Controller Category
+                    type: 'POST',
+                    data: { id: id, trangThai: trangThai },
+                    success: function (rs) {
+                        if (rs.success) {
+                            console.log('Đã đổi trạng thái danh mục!');
+                        } else {
+                            alert('Lỗi!');
+                            btn.prop('checked', !trangThai);
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+}

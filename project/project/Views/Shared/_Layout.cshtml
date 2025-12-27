@@ -1,4 +1,24 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Http
+@using System.Text.Json
+@using project.Models
+@inject IWebHostEnvironment Env
+@inject IHttpContextAccessor Accessor
+
+@{
+    // Code logic đọc file contact.json
+    var contactInfo = new ContactInfo();
+    string pathJSON = System.IO.Path.Combine(Env.WebRootPath, "contact.json");
+    if (System.IO.File.Exists(pathJSON))
+    {
+        string jsonContent = System.IO.File.ReadAllText(pathJSON);
+        if (!string.IsNullOrEmpty(jsonContent))
+        {
+            contactInfo = JsonSerializer.Deserialize<ContactInfo>(jsonContent);
+        }
+    }
+}
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -69,9 +89,6 @@
                             <a asp-controller="Shop" asp-action="Index"
                                class="nav-item nav-link @(controller == "Shop" ? "active" : "")">Shop</a>
 
-                            <a asp-controller="ShopDetail" asp-action="Index"
-                               class="nav-item nav-link @(controller == "ShopDetail" ? "active" : "")">Shop Detail</a>
-
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle @(controller == "Cart" ? "active" : "")" data-bs-toggle="dropdown">Pages</a>
                                 <div class="dropdown-menu m-0 bg-secondary rounded-0">
@@ -81,20 +98,60 @@
 
                             <a asp-controller="Contact" asp-action="Index"
                                class="nav-item nav-link @(controller == "Contact" ? "active" : "")">Contact</a>
-
-                            <a asp-controller="Admin" asp-action="Index"
-                               class="nav-item nav-link @(controller == "Admin" ? "active" : "")">Admin</a>
                         </div>
 
-                        <div class="d-flex m-3 me-0">
-                            <button class="btn-search btn border border-secondary btn-md-square rounded-circle bg-white me-4" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search text-primary"></i></button>
+                        @{
+                            var username = Accessor.HttpContext.Session.GetString("Username");
+                            var fullname = Accessor.HttpContext.Session.GetString("FullName");
+                            var displayName = !string.IsNullOrEmpty(fullname) ? fullname : username;
+                        }
+
+                        <div class="d-flex m-3 me-0 align-items-center">
+                            <button class="btn-search btn border border-secondary btn-md-square rounded-circle bg-white me-4" data-bs-toggle="modal" data-bs-target="#searchModal">
+                                <i class="fas fa-search text-primary"></i>
+                            </button>
+
                             <a asp-controller="Cart" asp-action="Index" class="position-relative me-4 my-auto">
                                 <i class="fa fa-shopping-bag fa-2x"></i>
                                 <span class="position-absolute bg-secondary rounded-circle d-flex align-items-center justify-content-center text-dark px-1" style="top: -5px; left: 15px; height: 20px; min-width: 20px;">3</span>
                             </a>
-                            <a asp-controller="Login" asp-action="Index" class="my-auto">
-                                <i class="fas fa-user fa-2x"></i>
-                            </a>
+
+                            @if (username != null)
+                            {
+                                <div class="dropdown my-auto">
+                                    <a href="#" class="d-flex align-items-center text-dark text-decoration-none" role="button" id="userDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="fas fa-user fa-2x text-primary"></i> <div class="ms-2 d-none d-lg-block text-start">
+                                            <span class="d-block text-muted" style="font-size: 12px;">Xin chào,</span>
+                                            <span class="fw-bold">@displayName</span>
+                                        </div>
+                                    </a>
+
+                                    <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="userDropdown">
+                                        <li>
+                                            <a class="dropdown-item" href="#">
+                                                <i class="fas fa-id-card me-2"></i> Hồ sơ cá nhân
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">
+                                                <i class="fas fa-history me-2"></i> Đơn mua
+                                            </a>
+                                        </li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li>
+                                            <a class="dropdown-item text-danger" asp-controller="Account" asp-action="Logout" asp-area="">
+                                                <i class="fas fa-sign-out-alt me-2"></i> Đăng xuất
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            }
+                            else
+                            {
+                                <a asp-controller="Account" asp-action="Login" class="my-auto">
+                                    <i class="fas fa-user fa-2x"></i>
+                                </a>
+                            }
                         </div>
                     </div>
                 </nav>
@@ -189,9 +246,9 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-item">
                             <h4 class="text-light mb-3">Contact</h4>
-                            <p>Address: 1429 Netus Rd, NY 48247</p>
-                            <p>Email: Example@gmail.com</p>
-                            <p>Phone: +0123 4567 8910</p>
+                            <p>Address: @contactInfo?.Address</p>
+                            <p>Email: @contactInfo?.Email</p>
+                            <p>Phone: @contactInfo?.Phone</p>
                             <p>Payment Accepted</p>
                             <img src="img/payment.png" class="img-fluid" alt="">
                         </div>

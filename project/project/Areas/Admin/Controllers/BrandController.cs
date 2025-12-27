@@ -1,16 +1,37 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using project.Attributes;
 using project.Data;
 using project.Models;
 
 namespace project.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authentication]
     public class BrandController : Controller
     {
         private SaBoTechContext db = new SaBoTechContext();
-        public IActionResult Index()
+        public IActionResult Index(string search)
         {
-            return View(db.Brands.ToList());
+            // 1. Tạo Query
+            var query = db.Brands.AsQueryable();
+
+            // 2. Xử lý Tìm kiếm (Nếu có từ khóa)
+            if (!string.IsNullOrEmpty(search))
+            {
+                query = query.Where(b =>
+                    EF.Functions.Collate(b.BrandName, "SQL_Latin1_General_CP1_CI_AI").Contains(search) ||
+                    EF.Functions.Collate(b.Origin, "SQL_Latin1_General_CP1_CI_AI").Contains(search)
+                );
+
+                // Lưu từ khóa để hiển thị lại
+                ViewBag.Search = search;
+            }
+
+            // 3. Lấy dữ liệu
+            var brands = query.ToList();
+
+            return View(brands);
         }
 
         [HttpPost]

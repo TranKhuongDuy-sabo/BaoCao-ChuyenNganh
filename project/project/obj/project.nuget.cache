@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ldE8qpvZRP8=",
+  "dgSpecHash": "kw4oMhdorcY=",
   "success": true,
-  "projectFilePath": "C:\\Bo\\TT CHUYÊN NGÀNH\\Baocaochuyennganh\\project\\project\\project.csproj",
+  "projectFilePath": "C:\\Bo\\TT CHUYÊN NGÀNH\\NET 8.0\\BaoCao-ChuyenNganh\\project\\project\\project.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kari\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Kari\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

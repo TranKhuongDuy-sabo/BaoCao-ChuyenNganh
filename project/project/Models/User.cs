@@ -1,8 +1,9 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Microsoft.EntityFrameworkCore;
 
 namespace project.Models;
 
@@ -12,6 +13,7 @@ public partial class User
 {
     [Key]
     [Column("UserID")]
+    [DisplayName("ID")]
     public int UserId { get; set; }
 
     [StringLength(50)]
@@ -34,6 +36,9 @@ public partial class User
 
     [StringLength(255)]
     public string? Address { get; set; }
+
+    [DisplayName("Duyệt")]
+    public bool IsActive { get; set; } = false;
 
     [InverseProperty("User")]
     public virtual ICollection<Order> Orders { get; set; } = new List<Order>();

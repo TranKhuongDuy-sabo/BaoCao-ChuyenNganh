@@ -17,129 +17,157 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = project
 build_property.RootNamespace = project
-build_property.ProjectDir = C:\Bo\TT CHUYÊN NGÀNH\Baocaochuyennganh\project\project\
+build_property.ProjectDir = C:\Bo\TT CHUYÊN NGÀNH\NET 8.0\BaoCao-ChuyenNganh\project\project\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Bo\TT CHUYÊN NGÀNH\Baocaochuyennganh\project\project
+build_property.MSBuildProjectDirectory = C:\Bo\TT CHUYÊN NGÀNH\NET 8.0\BaoCao-ChuyenNganh\project\project
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Bo/TT CHUYÊN NGÀNH/Baocaochuyennganh/project/project/Areas/Admin/Views/Admin/Index.cshtml]
+[C:/Bo/TT CHUYÊN NGÀNH/NET 8.0/BaoCao-ChuyenNganh/project/project/Areas/Admin/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Bo/TT CHUYÊN NGÀNH/Baocaochuyennganh/project/project/Areas/Admin/Views/Brand/formSua.cshtml]
+[C:/Bo/TT CHUYÊN NGÀNH/NET 8.0/BaoCao-ChuyenNganh/project/project/Areas/Admin/Views/Brand/formSua.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQnJhbmRcZm9ybVN1YS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Bo/TT CHUYÊN NGÀNH/Baocaochuyennganh/project/project/Areas/Admin/Views/Brand/formThem.cshtml]
+[C:/Bo/TT CHUYÊN NGÀNH/NET 8.0/BaoCao-ChuyenNganh/project/project/Areas/Admin/Views/Brand/formThem.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQnJhbmRcZm9ybVRoZW0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Bo/TT CHUYÊN NGÀNH/Baocaochuyennganh/project/project/Areas/Admin/Views/Brand/formXoa.cshtml]
+[C:/Bo/TT CHUYÊN NGÀNH/NET 8.0/BaoCao-ChuyenNganh/project/project/Areas/Admin/Views/Brand/formXoa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQnJhbmRcZm9ybVhvYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Bo/TT CHUYÊN NGÀNH/Baocaochuyennganh/project/project/Areas/Admin/Views/Brand/Index.cshtml]
+[C:/Bo/TT CHUYÊN NGÀNH/NET 8.0/BaoCao-ChuyenNganh/project/project/Areas/Admin/Views/Brand/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQnJhbmRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Bo/TT CHUYÊN NGÀNH/Baocaochuyennganh/project/project/Areas/Admin/Views/Category/formSua.cshtml]
+[C:/Bo/TT CHUYÊN NGÀNH/NET 8.0/BaoCao-ChuyenNganh/project/project/Areas/Admin/Views/Category/formSua.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcZm9ybVN1YS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Bo/TT CHUYÊN NGÀNH/Baocaochuyennganh/project/project/Areas/Admin/Views/Category/formThem.cshtml]
+[C:/Bo/TT CHUYÊN NGÀNH/NET 8.0/BaoCao-ChuyenNganh/project/project/Areas/Admin/Views/Category/formThem.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcZm9ybVRoZW0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Bo/TT CHUYÊN NGÀNH/Baocaochuyennganh/project/project/Areas/Admin/Views/Category/formXoa.cshtml]
+[C:/Bo/TT CHUYÊN NGÀNH/NET 8.0/BaoCao-ChuyenNganh/project/project/Areas/Admin/Views/Category/formXoa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcZm9ybVhvYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Bo/TT CHUYÊN NGÀNH/Baocaochuyennganh/project/project/Areas/Admin/Views/Category/Index.cshtml]
+[C:/Bo/TT CHUYÊN NGÀNH/NET 8.0/BaoCao-ChuyenNganh/project/project/Areas/Admin/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Bo/TT CHUYÊN NGÀNH/Baocaochuyennganh/project/project/Areas/Admin/Views/Order/Index.cshtml]
+[C:/Bo/TT CHUYÊN NGÀNH/NET 8.0/BaoCao-ChuyenNganh/project/project/Areas/Admin/Views/ContactInfo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdEluZm9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Bo/TT CHUYÊN NGÀNH/NET 8.0/BaoCao-ChuyenNganh/project/project/Areas/Admin/Views/Order/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Bo/TT CHUYÊN NGÀNH/Baocaochuyennganh/project/project/Areas/Admin/Views/Product/Index.cshtml]
+[C:/Bo/TT CHUYÊN NGÀNH/NET 8.0/BaoCao-ChuyenNganh/project/project/Areas/Admin/Views/Product/formSua.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxmb3JtU3VhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Bo/TT CHUYÊN NGÀNH/NET 8.0/BaoCao-ChuyenNganh/project/project/Areas/Admin/Views/Product/formThem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxmb3JtVGhlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Bo/TT CHUYÊN NGÀNH/NET 8.0/BaoCao-ChuyenNganh/project/project/Areas/Admin/Views/Product/formXoa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxmb3JtWG9hLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Bo/TT CHUYÊN NGÀNH/NET 8.0/BaoCao-ChuyenNganh/project/project/Areas/Admin/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Bo/TT CHUYÊN NGÀNH/Baocaochuyennganh/project/project/Areas/Admin/Views/Shared/Error.cshtml]
+[C:/Bo/TT CHUYÊN NGÀNH/NET 8.0/BaoCao-ChuyenNganh/project/project/Areas/Admin/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Bo/TT CHUYÊN NGÀNH/Baocaochuyennganh/project/project/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Bo/TT CHUYÊN NGÀNH/NET 8.0/BaoCao-ChuyenNganh/project/project/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Bo/TT CHUYÊN NGÀNH/Baocaochuyennganh/project/project/Areas/Admin/Views/User/Index.cshtml]
+[C:/Bo/TT CHUYÊN NGÀNH/NET 8.0/BaoCao-ChuyenNganh/project/project/Areas/Admin/Views/User/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Bo/TT CHUYÊN NGÀNH/NET 8.0/BaoCao-ChuyenNganh/project/project/Areas/Admin/Views/User/formSua.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxmb3JtU3VhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Bo/TT CHUYÊN NGÀNH/NET 8.0/BaoCao-ChuyenNganh/project/project/Areas/Admin/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Bo/TT CHUYÊN NGÀNH/Baocaochuyennganh/project/project/Areas/Admin/Views/_ViewImports.cshtml]
+[C:/Bo/TT CHUYÊN NGÀNH/NET 8.0/BaoCao-ChuyenNganh/project/project/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Bo/TT CHUYÊN NGÀNH/Baocaochuyennganh/project/project/Areas/Admin/Views/_ViewStart.cshtml]
+[C:/Bo/TT CHUYÊN NGÀNH/NET 8.0/BaoCao-ChuyenNganh/project/project/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Bo/TT CHUYÊN NGÀNH/Baocaochuyennganh/project/project/Views/Cart/Index.cshtml]
+[C:/Bo/TT CHUYÊN NGÀNH/NET 8.0/BaoCao-ChuyenNganh/project/project/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Bo/TT CHUYÊN NGÀNH/NET 8.0/BaoCao-ChuyenNganh/project/project/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Bo/TT CHUYÊN NGÀNH/NET 8.0/BaoCao-ChuyenNganh/project/project/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Bo/TT CHUYÊN NGÀNH/Baocaochuyennganh/project/project/Views/Contact/Index.cshtml]
+[C:/Bo/TT CHUYÊN NGÀNH/NET 8.0/BaoCao-ChuyenNganh/project/project/Views/Contact/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Bo/TT CHUYÊN NGÀNH/Baocaochuyennganh/project/project/Views/Home/Index.cshtml]
+[C:/Bo/TT CHUYÊN NGÀNH/NET 8.0/BaoCao-ChuyenNganh/project/project/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Bo/TT CHUYÊN NGÀNH/Baocaochuyennganh/project/project/Views/Login/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Bo/TT CHUYÊN NGÀNH/Baocaochuyennganh/project/project/Views/Register/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Bo/TT CHUYÊN NGÀNH/Baocaochuyennganh/project/project/Views/Shared/Error.cshtml]
+[C:/Bo/TT CHUYÊN NGÀNH/NET 8.0/BaoCao-ChuyenNganh/project/project/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Bo/TT CHUYÊN NGÀNH/Baocaochuyennganh/project/project/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Bo/TT CHUYÊN NGÀNH/NET 8.0/BaoCao-ChuyenNganh/project/project/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Bo/TT CHUYÊN NGÀNH/Baocaochuyennganh/project/project/Views/ShopDetail/Index.cshtml]
+[C:/Bo/TT CHUYÊN NGÀNH/NET 8.0/BaoCao-ChuyenNganh/project/project/Views/ShopDetail/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcERldGFpbFxEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Bo/TT CHUYÊN NGÀNH/NET 8.0/BaoCao-ChuyenNganh/project/project/Views/ShopDetail/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcERldGFpbFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Bo/TT CHUYÊN NGÀNH/Baocaochuyennganh/project/project/Views/Shop/Index.cshtml]
+[C:/Bo/TT CHUYÊN NGÀNH/NET 8.0/BaoCao-ChuyenNganh/project/project/Views/Shop/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Bo/TT CHUYÊN NGÀNH/Baocaochuyennganh/project/project/Views/_ViewImports.cshtml]
+[C:/Bo/TT CHUYÊN NGÀNH/NET 8.0/BaoCao-ChuyenNganh/project/project/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Bo/TT CHUYÊN NGÀNH/Baocaochuyennganh/project/project/Views/_ViewStart.cshtml]
+[C:/Bo/TT CHUYÊN NGÀNH/NET 8.0/BaoCao-ChuyenNganh/project/project/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Bo/TT CHUYÊN NGÀNH/Baocaochuyennganh/project/project/Areas/Admin/Views/Shared/_Layout.cshtml]
+[C:/Bo/TT CHUYÊN NGÀNH/NET 8.0/BaoCao-ChuyenNganh/project/project/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-nvszdk271t
 
-[C:/Bo/TT CHUYÊN NGÀNH/Baocaochuyennganh/project/project/Views/Shared/_Layout.cshtml]
+[C:/Bo/TT CHUYÊN NGÀNH/NET 8.0/BaoCao-ChuyenNganh/project/project/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-t5518iznra
